@@ -7,9 +7,10 @@ pipeline{
 	stages {
 		stage('Input') {
 			steps {
+				sh 'get_file.sh'
 				script {
 					// Los parametros pueden ser accedidos mediante params.parameterName
-					./get_file.sh
+					
 					echo "Hola, ${params.name}! Tienes ${params.age} de edad."
 				}
 			}
