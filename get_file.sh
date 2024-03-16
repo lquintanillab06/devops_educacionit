@@ -7,8 +7,8 @@ echo $url
 response=$( curl $url )
 echo $response
 
-filter=$(grep "logstash" $response)
+#filter_response=$(grep "logstash" $response)
 
-echo "****************************"
-echo $filter
+#echo "****************************"
+#echo $filter_response
 
