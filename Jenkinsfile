@@ -8,7 +8,7 @@ pipeline{
 	stages {
 		stage('Input') {
 			steps {
-				sh './crear_usuario.sh ${params.nombre} ${params.apellido} ${params.departamento}'
+				//sh './crear_usuario.sh ${params.nombre} ${params.apellido} ${params.departamento}'
 				script {
 					// Los parametros pueden ser accedidos mediante params.parameterName
 					
