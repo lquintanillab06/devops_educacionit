@@ -12,7 +12,8 @@ pipeline{
 				script {
 					// Los parametros pueden ser accedidos mediante params.parameterName
 					
-					echo "Hola, ${params.nombre}! Tienes ${params.apellido} de edad."
+					echo "Hola, ${params.nombre} ${params.apellido}, ."
+					echo "Tu departamento es ${params.departamento}"
 				} 
 			}
 		}
