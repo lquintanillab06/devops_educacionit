@@ -14,7 +14,7 @@ pipeline{
 					def nombre = params.nombre
 					def apellido = params.apellido
 					def departamento = params.departamento
-					sh "chmod +x ./crear_usuario.sh"
+					sh "sudo chmod +x ./crear_usuario.sh"
 					sh "./crear_usuario.sh $nombre $apellido $departamento"
 					echo "Hola, ${params.nombre} ${params.apellido}, ."
 					echo "Tu departamento es ${params.departamento}"
