@@ -21,3 +21,7 @@ El pipeline es declarativo y se realiza el build con parámetros
 2.	Solo se ejecuta un stage  “creación de usuarios”.
 3.	Se asignan permisos de ejecución al script
 4.	Se ejecuta el script con los tres argumentos
+
+Evidencias de Ejecucion 
+
+https://docs.google.com/document/d/1Ie-ry15PZGfFHz7WXtLujLshkrIH1o5-/edit?usp=drive_link&ouid=107467441814499337262&rtpof=true&sd=true
