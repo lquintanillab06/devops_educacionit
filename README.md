@@ -17,7 +17,7 @@ Ejemplo: si el usuario se llama Juan Mendoza el login quedará jmendoza
 
 El pipeline es declarativo y se realiza el build con parámetros 
 
-1.	Se realiza el build con paramtros los cuales corresponden a tres parámetros de tipo string, nombre, apellido y departamento.
+1.	Se realiza el build con parámetros los cuales corresponden a tres parámetros de tipo string, nombre, apellido y departamento.
 2.	Solo se ejecuta un stage  “creación de usuarios”.
 3.	Se asignan permisos de ejecución al script
 4.	Se ejecuta el script con los tres argumentos
